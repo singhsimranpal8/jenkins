@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("simran-jenkins/test")
+       app = docker.build("singhsimranpal8/jenkins")
     }
 
     stage('Test image') {
